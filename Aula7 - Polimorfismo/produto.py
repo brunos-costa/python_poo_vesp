@@ -15,7 +15,7 @@ class Eletronico(Produto):
         super().__init__(nome, preco)
         self._voltagem = voltagem
     
-    def descrever(self):
+    def descrever(self): 
         print(f"O Eletrônico {self._nome} custa R${self._preco} e possui a voltagem {self._voltagem}")
     
     def calcularDesconto(self, valor):
